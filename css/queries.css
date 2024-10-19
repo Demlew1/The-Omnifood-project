@@ -1,0 +1,370 @@
+@media (max-width: 72em) {
+  .heading-primary {
+    font-size: 4.2rem;
+  }
+  .gallery-item {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  html {
+    font-size: 56.25%;
+  }
+  .heading-secondory {
+    font-size: 3.6rem;
+  }
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+  .grid {
+    gap: 3.2rem;
+  }
+}
+@media (max-width: 59em) {
+  html {
+    font-size: 8px;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 2.4rem;
+    padding-bottom: 3.2rem;
+  }
+  .hero-img {
+    width: 50%;
+    text-align: center;
+    justify-self: center;
+    padding-top: 2rem;
+  }
+  .hero-text-box {
+    text-align: center;
+    padding: 0 15rem;
+  }
+  .delivered-meals {
+    justify-content: center;
+    margin-top: 4.8rem;
+  }
+  .logos img {
+    height: 2.4rem;
+  }
+  .step-number {
+    font-size: 6.4rem;
+  }
+  .card-description {
+    padding: 1.6rem;
+  }
+  .section-testimonials {
+    grid-template-columns: 1fr;
+    padding-left: 3.6rem;
+  }
+  .gallery-item {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .price-heading {
+    padding-left: 3.6rem;
+  }
+  .heading-container {
+    padding-top: 3.6rem;
+  }
+  .section-feature {
+    padding-left: 4rem;
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+  .cta {
+    grid-template-columns: 3fr 2fr;
+  }
+  .footer {
+    padding: 1.2rem 3.6rem;
+  }
+  .logo {
+    height: 1.6rem;
+  }
+  .nav-text {
+    font-size: 1.6rem;
+  }
+  .nav-link:link,
+  .nav-link:link {
+    font-size: 1.2rem;
+  }
+  .mobile-nav {
+    display: block;
+  }
+  .main-nav-list {
+    font-size: 1.4rem;
+    font-weight: 600;
+    background-color: rgba(240, 248, 255, 0.938);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(100%);
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    transition: all 0.5s ease-in;
+  }
+  .nav-open .main-nav-list {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+  .nav-open .nav-menu[name="close-outline"] {
+    display: block;
+  }
+  .nav-open .nav-menu[name="menu-outline"] {
+    display: none;
+  }
+}
+@media (max-width: 44.5em) {
+  .hero {
+    padding: 0;
+  }
+  .btn:link,
+  .btn:visited {
+    font-size: 1.4rem;
+    padding: 1.4rem 2.8rem;
+  }
+  .delivered-text {
+    font-size: 1.4rem;
+  }
+  .delivered-meals {
+  }
+  .delivered-img img {
+    width: 4.2rem;
+    height: 4.2rem;
+  }
+  .logos img {
+    height: 1.8rem;
+  }
+  .logos {
+    padding-left: 2.4rem;
+  }
+  .heading-secondary {
+    font-size: 2.6rem;
+  }
+  .sub-heading {
+    font-size: 1.4rem;
+  }
+  .step-number,
+  .heading-number {
+    font-size: 4.8rem;
+  }
+  .heading-tertiary {
+    font-size: 2rem;
+  }
+  .step-description {
+    font-size: 1.6rem;
+  }
+  .image {
+    width: 39%;
+  }
+  .grid-three-col,
+  .grid-4-col {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .step-1,
+  .step-2,
+  .step-3 {
+    padding: 4.8rem 0;
+  }
+  .grid-2-col {
+    gap: 4.8rem;
+  }
+  .section-how {
+    padding: 6.4rem;
+    padding-top: 3.6rem;
+  }
+  .section-testimonials {
+    padding-left: 1.8rem;
+  }
+  .grid.grid-three-col {
+    grid-template-columns: 1fr 1fr;
+  }
+  .diets {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+  .link-container {
+    padding-top: 3.2rem;
+  }
+  .pricing-name {
+    font-size: 1.4rem;
+  }
+  .plan-price {
+    font-size: 4.8rem;
+  }
+  .list-items {
+    font-size: 1.4rem;
+  }
+  .section-pricing {
+    padding-left: 3.2rem;
+  }
+  .plan-text {
+    font-size: 1rem;
+  }
+  .iconics {
+    width: 1.8rem;
+  }
+  .pricing-table {
+    width: 100%;
+  }
+  .grid-5-cols {
+    grid-template-columns: repeat(6, 1fr);
+    row-gap: 3.2rem;
+  }
+  .nav-footer {
+    grid-row: 1;
+    grid-column: span 2;
+    margin-bottom: 3.2rem;
+  }
+  .footer-logos,
+  .address-col {
+    grid-column: span 3;
+  }
+  .heading-primary {
+    font-size: 3.2rem;
+  }
+  .hero-description {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 32em) {
+  .hero {
+    justify-content: center;
+    gap: 0;
+    padding-top: 0;
+  }
+  .heading-primary {
+    font-size: 3rem;
+  }
+  .header {
+    padding: 0 1.6rem;
+  }
+  .hero-description {
+    font-size: 1.4rem;
+    margin-bottom: 0;
+  }
+  .btn:link,
+  .btn:visited {
+    font-size: 1.2rem;
+    padding: 1.4rem 2.8rem;
+    display: inline-block;
+  }
+  .delivered-text {
+    font-size: 1.2rem;
+    width: 12rem;
+  }
+
+  .delivered-meals {
+    margin-top: 2.4rem;
+  }
+  .delivered-img img {
+    width: 3.6rem;
+    height: 3.6rem;
+    padding-top: 0;
+  }
+  .hero-img {
+    padding-top: 1.2rem;
+  }
+  .hero-img {
+    width: 75%;
+  }
+  .logos {
+    height: 2rem;
+    padding-left: 0;
+  }
+  .grid-2-col,
+  .grid.grid-three-col,
+  .grid-4-col,
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+  .hero-text-box {
+    padding: 0 3.2rem;
+  }
+  .logos img {
+    height: 1rem;
+  }
+  .featured-in {
+    font-size: 1rem;
+  }
+  .featured-logo {
+    padding-left: 2.4rem;
+    padding-top: 2rem;
+  }
+  .section-how {
+    padding-top: 0;
+  }
+  .step-img {
+    grid-row: 1/2;
+  }
+  .sub-heading {
+    font-size: 1.4rem;
+  }
+  .heading-secondary {
+    font-size: 1.8rem;
+  }
+  .title {
+    padding-top: 0;
+  }
+  .section-how {
+    padding: 0 3.2rem;
+  }
+  .grid-2-col {
+    gap: 0;
+  }
+  .step-1-class,
+  .step-2-class,
+  .step-3-class {
+    padding: 0 0;
+  }
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+  .heading-container {
+    padding-top: 0;
+    margin-bottom: 2.4rem;
+  }
+  .gallery-item {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.7rem;
+  }
+  .price-heading {
+    padding-left: 0;
+  }
+  .section-pricing {
+    padding-top: 2.4rem;
+    padding-bottom: 0;
+  }
+  .section-feature {
+    padding: 0;
+    padding-right: 2rem;
+  }
+  .pricing-plan {
+    margin-bottom: 0;
+  }
+  .cta {
+    grid-template-columns: 1fr;
+  }
+  .section-cta {
+    padding: 2.4rem 0;
+    padding-left: 2.8rem;
+  }
+  .cta-inner-text {
+    font-size: 1.6rem;
+  }
+  .cta-text {
+    padding: 2.4rem;
+  }
+  .cta-img {
+    height: 24rem;
+    grid-row: 1;
+  }
+  .heading-secondary {
+    font-size: 2.8rem;
+  }
+}
